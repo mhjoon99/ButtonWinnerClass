@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             switch (v.getId()) {
-                case R.id.button1 : mTextView1.setText("You clicked button 1"); break;
-                case R.id.button2: mTextView1.setText("You clicked button 2"); break;
+                case R.id.button1 : mTextView1.setText("You clicked button 1!!"); break;
+                case R.id.button2: mTextView1.setText("You clicked button 2!!"); break;
                 default : break;
             }
         }
